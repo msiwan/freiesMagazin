@@ -1,0 +1,18 @@
+<div class="jumbotron">
+    <div class="container">
+        <nvd3 options="options" data="data"></nvd3>
+    </div>
+</div>
+<row>
+    <div>
+        <form name="ocpuForm">
+            Zufallszüge: <input type="number" name="input" ng-model="datapoints" min="1" max="1000" required>
+            <span class="error" ng-show="ocpuForm.input.$error.required">Required!</span>
+            <span class="error" ng-show="ocpuForm.input.$error.number">Not a valid number!</span>
+        </form>
+        <hr>
+        <button id="submit" ng-click="getNew()">Stichprobe generieren</button>
+    </div>
+</row>
+
+
