@@ -10,8 +10,8 @@ angular.module('freiesMagazinApp')
   .factory('ocpuconnect', [function ($scope, storage) {
     
     function getData(datapoints,callbackSuccess){
-        //CORS not necessary due to reverse proxy
-        ocpu.seturl("//localhost:8080/ocpu/library/freiesMagazin/R"); 
+        
+        ocpu.seturl("//192.168.0.10/ocpu/library/freiesMagazin/R"); 
 
         ocpu.call("detectnormoutlier", {n: datapoints}, function(session){
        

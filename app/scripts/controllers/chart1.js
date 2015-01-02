@@ -26,7 +26,7 @@ angular.module('freiesMagazinApp')
         var data = [],
             shapes = ['cross', 'triangle-up', 'triangle-down', 'diamond', 'square'];
            
-        var label=['OK','OUTLIER','MED OUTLIER', 'MAX OUTLIER'];
+        var label=['NON-OUTLIER ','OUTLIER','MED OUTLIER', 'MAX OUTLIER'];
 
         //R function is having 4 elements, but an error occurs in D3.js
         //Scatter chart error when multiple points have same value
