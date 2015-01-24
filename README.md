@@ -1,10 +1,9 @@
 freiesMagazin Beispielapplikation
-================================= 
+============================
 
-Dynamische Dashboards mit AngularJS, D3.js und OpenCPU
-Markus Herrmann und Markus Iwanczok
-http://www.freiesmagazin.de/...tba
-
+### Dynamische Dashboards mit AngularJS, D3.js und OpenCPU
+#### Markus Herrmann und Markus Iwanczok
+[Link zum Artikel](http://www.freiesmagazin.de/...tba)
 
 ----------
 
@@ -22,5 +21,10 @@ http://www.freiesmagazin.de/...tba
 
 
 ###### Kontakt:
-markus.herrmann@gfk.com
-markus.iwanczok@gfk.com
+
+ - markus.herrmann@gfk.com
+ - markus.iwanczok@gfk.com
+ 
+
+
+
