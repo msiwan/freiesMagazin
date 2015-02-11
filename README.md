@@ -6,7 +6,8 @@ freiesMagazin Beispielapplikation
 [Link zum Artikel](http://www.freiesmagazin.de/...tba)
 
 ----------
-
+#### Installation der Abhängigkeiten
+    $ npm install && bower install
 
 #### Bau der Distribution
     $ grunt build
