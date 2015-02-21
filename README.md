@@ -16,15 +16,11 @@ freiesMagazin Beispielapplikation
 
     $ grunt serve
 
-#### Continuos Integration
-
-[![build status](https://ci.compstat.de/projects/2/status.png?ref=master)](https://ci.compstat.de/projects/2?ref=master)
-
-Kontinuierlich integrierte Versionen der Beispielapplikation sind hier erhältlich: [gitlab@compstat](https://gitlab.compstat.de/msherr/freiesMagazin-sampleApp)
-
 ----------
 
+#### Continuos Integration [![build status](https://ci.compstat.de/projects/2/status.png?ref=master)](https://ci.compstat.de/projects/2?ref=master)
 
+----------
 
 ###### Kontakt:
 
