@@ -18,7 +18,8 @@ freiesMagazin Beispielapplikation
 
 ----------
 
-#### Continuos Integration [![build status](https://ci.compstat.de/projects/2/status.png?ref=master)](https://ci.compstat.de/projects/2?ref=master)
+#### Continuos Integration 
+[![build status](https://ci.compstat.de/projects/2/status.png?ref=master)](https://ci.compstat.de/projects/2?ref=master)
 
 ----------
 
