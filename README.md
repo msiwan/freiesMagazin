@@ -1,4 +1,4 @@
-freiesMagazin Beispielapplikation
+freiesMagazin Beispielapplikation [![build status](https://ci.compstat.de/projects/2/status.png?ref=master)](https://ci.compstat.de/projects/2?ref=master)
 ============================
 
 ### Dynamische Dashboards mit AngularJS, D3.js und OpenCPU
@@ -15,11 +15,6 @@ freiesMagazin Beispielapplikation
 #### Test der Applikation
 
     $ grunt serve
-
-----------
-
-#### Continuous Integration 
-[![build status](https://ci.compstat.de/projects/2/status.png?ref=master)](https://ci.compstat.de/projects/2?ref=master)
 
 ----------
 
