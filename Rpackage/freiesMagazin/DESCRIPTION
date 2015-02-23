@@ -1,0 +1,10 @@
+Package: freiesMagazin
+Type: Package
+Title: Outlier Detection
+Version: 1.0
+Date: 2015-01-02
+Author: Dr. Vlad Ardelean <vlad.ardelean@gfk.com>
+Maintainer: Markus Herrmann <markus.herrmann@gfk.com>
+Description: Outlier Detection Example 
+License: CC BY-SA 4.0
+Packaged: 2015-01-02 20:27:13 UTC; mh

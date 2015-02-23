@@ -1,0 +1,21 @@
+detectnormoutlier <- function(n){
+  x=rnorm(n)
+  alpha.new.1=1-(1-0.01)^(1/length(x)) 
+  alpha.new.5=1-(1-0.05)^(1/length(x)) 
+  m.out.loc=sample(1:n, 5)
+  x[m.out.loc]=x[m.out.loc]+sign(x[m.out.loc])*qnorm(1-alpha.new.5)   
+  l.out.loc=sample(setdiff(c(1:n), m.out.loc), 5)
+  x[l.out.loc]=x[l.out.loc]+sign(x[l.out.loc])*qnorm(1-alpha.new.1)
+  temp.mean=median(x)  
+  temp.sd=mad(x )     
+  temp.data=(x-temp.mean)/temp.sd 
+  temp.norm.p=pnorm(temp.data)
+  out1=which(temp.norm.p>1-alpha.new.5 | temp.norm.p<alpha.new.5)
+  out2=which(temp.norm.p>1-alpha.new.1 | temp.norm.p<alpha.new.1)
+  output<-list()
+  output[[1]]<-cbind(   (1:n)[-out1], x[-out1]  )
+  output[[2]]<-cbind(   (1:n)[out1], x[out1] )    
+  output[[3]]<-cbind(   (1:n)[setdiff(out1,out2)], x[setdiff(out1,out2)]   ) 
+  output[[4]]<-cbind(   (1:n)[out2], x[out2] )  
+  return(output)
+}
